@@ -11,6 +11,7 @@
 		CD1C16122B1A451D0015E496 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C16112B1A451D0015E496 /* ContentView.swift */; };
 		CD1C16142B1A451E0015E496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1C16132B1A451E0015E496 /* Assets.xcassets */; };
 		CD1C16172B1A451E0015E496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1C16162B1A451E0015E496 /* Preview Assets.xcassets */; };
+		CD1C161F2B1A47570015E496 /* TranslationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C161E2B1A47570015E496 /* TranslationResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CD1C16112B1A451D0015E496 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD1C16132B1A451E0015E496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD1C16162B1A451E0015E496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD1C161E2B1A47570015E496 /* TranslationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		CD1C160E2B1A451D0015E496 /* SuperCoolTranslator */ = {
 			isa = PBXGroup;
 			children = (
+				CD1C161D2B1A47400015E496 /* model */,
 				CD1C160F2B1A451D0015E496 /* SuperCoolTranslatorApp.swift */,
 				CD1C16112B1A451D0015E496 /* ContentView.swift */,
 				CD1C16132B1A451E0015E496 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				CD1C16162B1A451E0015E496 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD1C161D2B1A47400015E496 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C161E2B1A47570015E496 /* TranslationResponse.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1C16122B1A451D0015E496 /* ContentView.swift in Sources */,
+				CD1C161F2B1A47570015E496 /* TranslationResponse.swift in Sources */,
 				CD1C16102B1A451D0015E496 /* SuperCoolTranslatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
